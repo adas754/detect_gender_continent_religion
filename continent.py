@@ -4,7 +4,7 @@ import streamlit as st
 import openai
 
 # Initialize OpenAI API key
-openai.api_key = ""
+openai.api_key = "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"
 
 # Function to predict gender, religion, and continent using OpenAI GPT
 def get_gender_religion_continent(name):
